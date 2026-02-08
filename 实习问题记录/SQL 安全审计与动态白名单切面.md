@@ -68,7 +68,7 @@ flowchart TD
 
   支持对函数嵌套的解析，例如 `COUNT(phone)` 或 `MAX(salary)`。代码通过递归逻辑 `checkExpression` 深入检查函数参数中的字段是否合规。
 
-Java
+**核心逻辑**
 
 ```java
 // 递归检查核心逻辑片段
